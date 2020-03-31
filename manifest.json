@@ -1,0 +1,15 @@
+{
+    "name": "Spongegasm",
+    "version": "1.0",
+    "description": "convert all webpages into spongebob meme so that it sounds stupid",
+    "manifest_version": 2,
+    "content_scripts":[{
+        "js": ["content.js"],
+        "matches": [ "<all_urls>" ]
+    }],
+    "browser_action": {
+        "default_icon": {
+           //  
+        }
+    }
+  }
